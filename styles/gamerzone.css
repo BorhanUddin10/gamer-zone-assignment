@@ -42,3 +42,41 @@ nav ul{
     display: flex;
     justify-content: space-around;
 }
+.main-section{
+    display: flex;
+    align-items: center;
+}
+.icon-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 120px 200px;
+
+}
+/*footer section*/
+
+.footer-section{
+    background: black;
+    padding: 100px;
+}
+
+.footrt-img{
+    display: flex;
+    padding: 0 800px;
+    color: white;
+    
+}
+.footer-3{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 500px;
+    color: white;
+}
+.footer-icon{
+   text-align: center;
+   justify-content: space-between;
+}
+.last-p{
+    text-align: center;
+    color: wheat;
+}
