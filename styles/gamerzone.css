@@ -1,0 +1,27 @@
+.logo-part{
+    display: flex;
+    padding: 40px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    border: 30px;
+    padding: 30px;
+    background: bisque;
+}
+.img{
+    padding: 20px;
+}
+.logo-part{
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    margin-right: 50px;
+    align-items: center;
+    list-style: none;
+    padding-right: 100px;
+}
+.li-bu{
+    margin: 500px;
+}
