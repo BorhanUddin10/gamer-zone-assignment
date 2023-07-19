@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,700;1,400&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
 .logo-part{
     display: flex;
     padding: 40px 240px;
@@ -15,8 +20,13 @@ nav{
 .logo-part{
     align-items: center;
 }
+.g{
+    color: #FF42A5
+}
+
 nav ul{
     display: flex;
+    justify-content: space-between;
     margin-right: 50px;
     align-items: center;
     list-style: none;
@@ -29,8 +39,39 @@ nav ul{
     background:floralwhite;
     margin: 0 150px;
 }
+.g-p{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 1px;
+}
+.g-o{
+    color: #FF42A5;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+}
+.button-A{
+    background: #FF42A5;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-weight: 700;
+}
+.button-B{
+    background: #4EC5F7;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-weight: 700;
+}
 .section-2{
     text-align: center;
+   
+}
+.Online-Games{
+    font-size: 48px;
+    font-weight: 700;
 }
 .img-section{
     display: flex;
@@ -42,6 +83,13 @@ nav ul{
     display: flex;
     justify-content: space-around;
 }
+.Play-Instantly{
+    color: #FF42A5;
+}
+.main-h1{
+    font-size: 48px;
+    font-weight: 500;
+}
 .main-section{
     display: flex;
     align-items: center;
@@ -52,6 +100,9 @@ nav ul{
     align-items: center;
     padding: 120px 200px;
 
+}
+.icon-img :hover{
+    
 }
 /*footer section*/
 
@@ -80,3 +131,5 @@ nav ul{
     text-align: center;
     color: wheat;
 }
+
+
