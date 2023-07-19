@@ -12,7 +12,7 @@ nav{
     justify-content: space-between;
     border: 10px;
     padding: 10px;
-    background: bisque;
+    background: rgb(249, 233, 213);
 }
 .img{
     padding: 20px;
@@ -24,13 +24,14 @@ nav{
     color: #FF42A5
 }
 
-nav ul{
+.li-bu{
     display: flex;
-    justify-content: space-between;
-    margin-right: 50px;
     align-items: center;
+    gap: 50px;
     list-style: none;
-    padding-right: 100px;
+    padding-right: 200px;
+    font-size: 20px;
+
 }
 .head-section{
     display: flex;
